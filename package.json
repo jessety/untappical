@@ -1,0 +1,32 @@
+{
+  "name": "untappical",
+  "version": "1.0.0",
+  "description": "ICS calendar feed server for Untappd checkins",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "node ./node_modules/eslint/bin/eslint.js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessety/untappical.git"
+  },
+  "author": "Jesse T Youngblood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessety/untappical/issues"
+  },
+  "homepage": "https://github.com/jessety/untappical#readme",
+  "devDependencies": {
+    "@jessety/eslint-config": "^1.0.3",
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "env-smart": "^1.4.0",
+    "express": "^4.16.4",
+    "ical-generator": "^1.6.0",
+    "simple-express-logs": "^1.2.1",
+    "simple-log-colors": "^1.0.0",
+    "untappd-js": "^1.0.3"
+  }
+}
