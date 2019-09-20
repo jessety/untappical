@@ -25,7 +25,7 @@
   "dependencies": {
     "env-smart": "^1.4.1",
     "express": "^4.17.1",
-    "ical-generator": "^1.7.1",
+    "ical-generator": "^1.8.1",
     "simple-express-logs": "^1.2.1",
     "simple-log-colors": "^1.0.1",
     "untappd-js": "^1.0.3"
